@@ -1,3 +1,12 @@
+
+export async function generateMetadata({ params }) {
+  // read route params
+  const title = params.title
+  return {
+    title: title
+  }
+}
+
 export default function ShowBlog({params}) {
     return (
         <div className="flex flex-col items-center text-center my-32 justify-center">

@@ -17,6 +17,12 @@ const Blog = [
         content: "This is the content of blog 3"
     }
 ];
+
+
+export const metadata = {
+    title: 'Blogs'
+  }
+  
 export default function Blogs() {
     return (
         <div className="flex flex-col items-center text-center my-32 justify-center">
